@@ -12,4 +12,8 @@ div{
      border:1.5px #000000 solid;
      background-color: rgba(50, 190, 250, 0.403);
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 
