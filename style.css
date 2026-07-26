@@ -1,6 +1,6 @@
 div{
             color: rgb(24, 103, 207);
-            background-color: rgba(38, 172, 255, 0.377);
+            background-color:#B8E4FF ;
             border:1px #abdfe95d solid;
 
             
@@ -15,5 +15,14 @@ div{
 a{
     text-decoration: none;
     color: black;
+}
+body{
+    font-family: "Caveat", cursive;
+    font-size: 30px;
+    font-weight: 500;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Gabriela", serif;
+    font-size: 50px;
 }
 
