@@ -7,6 +7,10 @@ div{
 }
 .Uclugi{
     color: rgb(24, 103, 207);
+    padding: 50px;
+    margin: 50px;
+    justify-content: center;
+    border: 3px solid #8dc6ed;
 }
 .button{
      border:1.5px #000000 solid;
