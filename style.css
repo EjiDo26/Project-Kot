@@ -43,6 +43,15 @@ h1, h2, h3, h4, h5, h6{
 header{
     display: flex;
     justify-content: space-between;
-    background-color:#fdfefe !important ;
+    align-items: center;
 }
+.email{
+    background-color:#fff;
+    border: none;
+}
+.tel{
+    background-color:#fff;
+    border: none;
+}
+
 
