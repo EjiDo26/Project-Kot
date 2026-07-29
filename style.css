@@ -25,9 +25,16 @@ body{
     font-size: 30px;
     font-weight: 500;
 }
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4,h6{
     font-family: "Gabriela", serif;
     font-size: 50px;
+    margin-bottom: 30px;
+}
+h5{
+    font-family: "Gabriela", serif;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .logo{
     border:rgba(100, 148, 237, 0.96) ;
@@ -53,5 +60,12 @@ header{
     background-color:#fff;
     border: none;
 }
+.osobennosti{
+    margin-left: 10px;
+}
+.popularQ{
+    margin-left: 10px;
+}
+
 
 
