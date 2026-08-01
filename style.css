@@ -11,9 +11,12 @@ div{
     margin: 50px;
     justify-content: center;
     border: 3px solid #8dc6ed;
-    width: 200px;
-    height: 100px;
+    width: 300px;
+    height: 200px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.Uclugi.hover{
+    transform: translateY(2s);
 }
 .button{
      border:1.5px #000000 solid;
@@ -32,6 +35,7 @@ h1, h2, h3, h4,h6{
     font-family: "Gabriela", serif;
     font-size: 50px;
     margin-bottom: 30px;
+    font-weight: 700;
 }
 h5{
     font-family: "Gabriela", serif;
@@ -108,6 +112,7 @@ h3{
   border-radius: 15px;
   /*background-color: Snow;*/
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: ;
 }
 .home{
   color: rgb(24, 103, 207);
@@ -129,11 +134,11 @@ h3{
     border-radius: none;
     box-shadow: none;    
 }
-@media screen (max-weight: 1750px) {
+@media (max-width: 1750px) {
     .container{
         flex-wrap: wrap;
     }
-    .tel&knopka{
+    .telknopka{
         display: none;
     }
 }
