@@ -1,27 +1,5 @@
-.Ucluga2{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: none;
-    font-size: 50px;
-    font-weight: 500;
-}
 h3{ 
   width: 315px;
-  height: 150px;
-  border-radius: 15px;
-  /*background-color: Snow;*/
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-.home{
-  color: rgb(24, 103, 207);
-  font-size: 50px;
-  /*display: flex;
-  margin: 10px 1px 0px;*/
-
-}
-.line{
-  color: rgb(24, 103, 207);
-  border: 3px solid;
-  border-color: cornflowerblue;
+  height: 130px;
 }
 
