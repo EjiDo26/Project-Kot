@@ -15,6 +15,7 @@ div{
     height: 200px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: all 1.5s 0.07s;
+    border-radius: 16px;
 }
 .Uclugi:hover{
     transform: translateY(-15px);
@@ -24,6 +25,13 @@ div{
      border:1.5px #000000 solid;
      background-color: rgba(50, 190, 250, 0.403);
      padding: none;
+     padding-top: 30px;
+     align-items: center;
+     display: block;
+     height: 100px;
+     width: 420px;
+     font-size: 40px;
+     border-radius: 20px;
      /*height: 100px;
      width: 400px;*/
 
@@ -141,6 +149,18 @@ h3{
     border-radius: none;
     box-shadow: none;    
 }
+.logotip{
+    width: 400px;
+    height: 100px;
+}
+.telegram{
+    width: 100px; 
+    height: 100px; 
+}
+.footer{
+    display: flex;
+    align-items: center;
+}
 @media (max-width: 1750px) {
     .container{
         flex-wrap: wrap;
@@ -159,17 +179,8 @@ h3{
     display: none;
 }
 }
-.logotip{
-    width: 400px;
+.telknopka{
     height: 100px;
-}
-.telegram{
-    width: 100px; 
-    height: 100px; 
-}
-.footer{
-    display: flex;
-    align-items: center;
 }
 
     
