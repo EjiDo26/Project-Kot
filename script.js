@@ -1,56 +1,56 @@
 function HelloName(name = "Guest"){
-    console.log("Hello,", name)
+    return("Hello,", name)
 }
 function Sum(a, b){
-    console.log(a+b)
+    return(a+b)
 }
 function isEven(n){
     if(n%2==0)
-        console.log("true")
+        return(true)
     else
-        console.log("false")
+        return(false)
 }
 function max(a, b){
     if(a>b)
-        console.log(a)
+        return(a)
     else
-        console.log(b)
+        return(b)
 }
 function canVote(age){
     if(age>=18)
-        console.log("Можно")
+        return("Можно")
     else
-        console.log("Нельзя")
+        return("Нельзя")
 }
 function repeat(str, n){
     for(let i=0; i<n; i++){
-        console.log(str)
+        return(str)
     }
 }
 function getLength(str){
-    console.log(str.length)
+    return(str.length)
 }
 function greet(name){
     if(name == undefined){
-        console.log("Введите имя")
+        return("Введите имя")
     }
     else{
-        console.log("Hello,", name)
+        return("Hello,", name)
     }
     
 }
 function square(n){
-    console.log(n*n)
+    return(n*n)
 }
 function calc(a, b, op){
     if(op == "+")
-        console.log(a+b)
+        return(a+b)
     if(op == "-")
-        console.log(a-b)
+        return(a-b)
     if(op == "*")
-        console.log(a*b)
+        return(a*b)
     if(op == "/")
-        console.log(a/b)
+        return(a/b)
 }
 
 
