@@ -22,6 +22,7 @@ div{
 .Uclugi:hover{
     transform: translateY(-15px);
     transition: all 1s 0.05s;
+    
 }
 .button{
      border:1.5px #000000 solid;
@@ -186,7 +187,7 @@ h3{
     height: 100px;
 }
 
-    
+ 
 
 
 
